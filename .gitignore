@@ -1,0 +1,36 @@
+# compiled output
+*.out
+*.test
+dist
+tmp
+build
+bindata.go
+*.coverprofile
+
+# IDE
+.vscode
+.idea
+
+# binary
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Configs
+config.yaml
+
+# generated docs
+docs
+
+# secret
+*.pem
+*.key
+*.crt
+
+webhook
