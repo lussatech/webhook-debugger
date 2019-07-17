@@ -1,5 +1,6 @@
 FROM golang:alpine as builder
-COPY . .
+WORKDIR /root
+COPY . /root
 RUN apk add --update alpine-sdk
 RUN make build-cross-linux
 
